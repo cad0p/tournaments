@@ -1,0 +1,47 @@
+body 
+{
+  background-color: #d3cdcd;
+  margin: 20px 40px 10px 20px;
+  font-family: "Calibri", serif; 
+  font-style: italic;
+}
+
+
+h1
+{
+  font-family: "Calibri", serif; 
+  font-style: italic;
+  background-color: #f4eb44; /*GIALLO*/
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  background-image: url("images_.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+
+.largeButton {
+  display: inline-block;
+  padding: 3px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000; /*NERO*/
+  background-color: #94b9ef; /*BLU*/
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 3px #999;
+  margin-top: .5%; 
+}
+
+.largeButton:hover {background-color: #bdd1ef}  /*BLU*/
+
+.largeButton:active {
+  background-color: #bdd1ef;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
